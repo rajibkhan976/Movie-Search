@@ -11,3 +11,56 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.registration-form-container {
+	max-width: 1400px;
+	min-height: 640px;
+	background-color: #00AAD0;
+}
+
+.registration-form {
+	max-width: 500px;
+	min-height: 540px;
+	background-color: #fff;
+	border-radius: 5px;
+	margin: 3rem auto;
+	color: black;
+	font-weight: 600;
+	font-size: 0.8rem;
+}
+
+input[type=text] {
+	border: 2px solid black;
+}
+
+input[type=date] {
+	border: 2px solid black;
+}
+
+.register-btn {
+	width: 120px;
+	height: 30px;
+	background-color: #00AAD0 !important;
+	color: #fff !important;
+	border: none;
+	border-radius: 4px;
+	margin-left: 2%;
+}
+
+.cancel-btn {
+	width: 120px;
+	height: 30px;
+	background-color: #5E5757 !important;
+	color: #fff !important;
+	border: none;
+	border-radius: 4px;
+	margin-left: 5%;
+}
+
+.form-header {
+	font-size: 1.2rem;
+}
+
+.font-bolder {
+	font-weight: 900;
+}
