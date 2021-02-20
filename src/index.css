@@ -22,6 +22,12 @@ code {
 	background-color: #F4F4F4;
 }
 
+.login-form-logo {
+	margin: 0 auto !important;
+	padding-top: 1.5rem;
+	padding-bottom: 3rem;
+}
+
 .registration-form {
 	max-width: 500px;
 	min-height: 200px;
@@ -81,22 +87,6 @@ input[type=password] {
 
 .font-bolder {
 	font-weight: 900;
-}
-
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
 }
 
 .MuiPaper-root {

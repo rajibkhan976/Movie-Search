@@ -41,7 +41,7 @@ const RegistrationForm = ({ handleAuthentication }) => {
 			<div className="row">
 				<div className="col-12">
 					<div className="registration-form">
-						<img className="d-inline-block img-fluid mt-3 mb-5" src={SHOWTIME} alt="logo" />
+						<img className="d-block login-form-logo img-fluid" src={SHOWTIME} alt="logo" />
 						<div className="row mb-3">
 							<div className="col-12 col-sm-3">
 								<label htmlFor="username" className="form-label pt-2 pl-3 float-left">User name</label>
